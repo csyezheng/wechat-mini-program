@@ -1,0 +1,14 @@
+<!-- pages/index/index.wxml -->
+<view class="container">
+  <header title="Home" showBack="{{false}}" />
+  <image class="logo" src="/images/logo.png" alt="Community Logo" />
+  <text>Welcome to the Smart Community!</text>
+  <view class="features">
+    <block wx:for="{{features}}" wx:key="id">
+      <feature-card feature="{{item}}" bindtap="navigateToFeature" data-page="{{item.page}}" />
+    </block>
+  </view>
+  
+  <!-- // "custom": true  tabBar in app.json -->
+  <!-- <bottom-nav current="home" bind:change="onNavChange" /> -->
+</view>
