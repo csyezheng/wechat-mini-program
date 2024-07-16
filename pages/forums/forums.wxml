@@ -1,0 +1,20 @@
+<view class="forums-wrapper-container">
+  <!-- <header title="Discussion Forums" showBack="true" /> -->
+  
+  <view class="forums-container">
+    <scroll-view scroll-x="true" enable-flex="true" class="forums-scroll-view">
+      <view wx:for="{{tabs}}" wx:key="name" data-index="{{index}}" bindtap="switchTab" class="{{currentTab === index ? 'forums-item active' : 'forums-item'}}">
+        <text>{{item.name}}</text>
+      </view>
+    </scroll-view>
+  </view>
+
+  <scroll-view scroll-y="true" class="post-list">
+    <view class="post-item" wx:for="{{currentPosts}}" wx:key="id">
+      <text class="post-author">{{item.author}}</text>
+      <text class="post-content">{{item.content}}</text>
+    </view>
+  </scroll-view>
+
+  <!-- <bottom-nav current="forums" bind:change="onNavChange" /> -->
+</view>

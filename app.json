@@ -4,7 +4,8 @@
     "pages/logs/logs",
     "pages/properties/properties",
     "pages/business/business",
-    "pages/profile/profile"
+    "pages/profile/profile",
+    "pages/forums/forums"
   ],
   "tabBar": {
     "list": [
@@ -15,10 +16,10 @@
         "text": "Home"
       },
       {
-        "pagePath": "pages/properties/properties",
-        "iconPath": "/images/icons/properties.png",
-        "selectedIconPath": "/images/icons/properties.png",
-        "text": "Properties"
+        "pagePath": "pages/forums/forums",
+        "iconPath": "/images/icons/socialize.png",
+        "selectedIconPath": "/images/icons/socialize.png",
+        "text": "Forums"
       },
       {
         "pagePath": "pages/business/business",

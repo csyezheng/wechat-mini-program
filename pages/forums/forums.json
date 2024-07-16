@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "Forums",
+  "usingComponents": {
+    "header": "/components/header/header"
+  }
+}
