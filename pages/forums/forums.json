@@ -1,5 +1,5 @@
 {
-  "navigationBarTitleText": "Forums",
+  "navigationBarTitleText": "论坛",
   "usingComponents": {
     "header": "/components/header/header"
   }
