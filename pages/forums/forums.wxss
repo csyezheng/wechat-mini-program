@@ -3,6 +3,7 @@
   display: flex;
   flex-direction: column;
   height: 100vh;
+  padding-right: 10px;
 }
 
 /* Scroll view for horizontal scrolling */
@@ -33,13 +34,6 @@
 .forums-item.active {
   font-weight: bold;
   border-bottom: 2px solid #007aff;
-}
-
-.avatar {
-  width: 40px;
-  height: 40px;
-  border-radius: 20px;
-  margin-right: 10px;
 }
 
 .swiper-container {
@@ -91,7 +85,7 @@
 
 .follow-button {
   flex-shrink: 0; /* Prevent the button from shrinking */
-  flex-basis: 80px; /* Ensure the button takes up the specified width */
+  flex-basis: 70px; /* Ensure the button takes up the specified width */
   background-color: #007aff;
   color: #fff;
   padding: 5px 0;
@@ -113,9 +107,24 @@
   color: #666;
 }
 
+.post-bottom-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.post-topic {
+  color: #007aff;
+  font-size: 12px;
+  padding: 0 10px;
+  background-color: #ebeaea;
+  border-radius: 25px;
+}
+
 .post-actions {
   display: flex;
-  justify-content: flex-start;
+  justify-content: flex-end;
 }
 
 .action {

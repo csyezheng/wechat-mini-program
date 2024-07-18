@@ -1,9 +1,9 @@
 <!-- pages/business/business.wxml -->
 <view class="container">
-  <header title="Business" showBack="{{false}}" />
+  <!-- <header title="Business" showBack="{{false}}" /> -->
   <view class="search-bar">
-    <input class="search-input" placeholder="Search for businesses..." />
-    <button class="search-button" style="width: 100px;">Search</button>
+    <input class="search-input" placeholder="搜索周边商业商品..." />
+    <button class="search-button" style="width: 100px;">搜索</button>
   </view>
   <view class="category-container">
     <scroll-view scroll-x="true" enable-flex="true" class="category-scroll-view">

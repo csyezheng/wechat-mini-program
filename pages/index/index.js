@@ -9,8 +9,8 @@ Page({
       { id: 3, name: '商家3', image: '/images/business3.jpg' },
     ],
     activities: [
-      { id: 1, title: '社区运动会', description: '参加社区运动会，强身健体。', image: '/images/activity1.jpg' },
-      { id: 2, title: '亲子阅读', description: '和孩子一起享受阅读的快乐时光。', image: '/images/activity2.jpg' },
+      { id: 1, title: '社区运动会', description: '参加社区运动会，强身健体。', image: '/images/examples/activity1.jpg' },
+      { id: 2, title: '亲子阅读', description: '和孩子一起享受阅读的快乐时光。', image: '/images/examples/activity2.jpg' },
     ],
     promotions: [
       { id: 1, title: '商家促销1', description: '享受限时折扣。', image: '/images/promotion1.jpg' },

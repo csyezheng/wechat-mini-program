@@ -24,18 +24,72 @@ Page({
   fetchPosts() {
     // Simulate fetching posts for each tab
     const posts = [
-      { id: 1, avatar: '/images/avatar.jpg', author: 'User1', content: '推荐的帖子内容', date: '2024-07-14', replies: 5, likes: 10, isFollowing: false },
-      { id: 2, avatar: '/images/avatar.jpg', author: 'User2', content: '关注的帖子内容', date: '2024-07-14', replies: 2, likes: 4, isFollowing: false },
-      { id: 3, avatar: '/images/avatar.jpg', author: 'User3', content: '动态的帖子内容', date: '2024-07-14', replies: 8, likes: 15, isFollowing: false },
-      { id: 4, avatar: '/images/avatar.jpg', author: 'User4', content: '问答的帖子内容', date: '2024-07-14', replies: 1, likes: 1, isFollowing: false },
-      { id: 5, avatar: '/images/avatar.jpg', author: 'User5', content: '话题的帖子内容', date: '2024-07-14', replies: 3, likes: 6, isFollowing: false },
-      { id: 6, avatar: '/images/avatar.jpg', author: 'User6', content: '附近的帖子内容', date: '2024-07-14', replies: 0, likes: 2, isFollowing: false },
-      { id: 7, avatar: '/images/avatar.jpg', author: 'User1', content: '推荐的帖子内容', date: '2024-07-14', replies: 5, likes: 10, isFollowing: false },
-      { id: 8, avatar: '/images/avatar.jpg', author: 'User2', content: '关注的帖子内容', date: '2024-07-14', replies: 2, likes: 4, isFollowing: false },
-      { id: 9, avatar: '/images/avatar.jpg', author: 'User3', content: '动态的帖子内容', date: '2024-07-14', replies: 8, likes: 15, isFollowing: false },
-      { id: 10, avatar: '/images/avatar.jpg', author: 'User4', content: '问答的帖子内容', date: '2024-07-14', replies: 1, likes: 1, isFollowing: false },
-      { id: 11, avatar: '/images/avatar.jpg', author: 'User5', content: '话题的帖子内容', date: '2024-07-14', replies: 3, likes: 6, isFollowing: false },
-      { id: 12, avatar: '/images/avatar.jpg', author: 'User6', content: '附近的帖子内容', date: '2024-07-14', replies: 0, likes: 2, isFollowing: false }
+      {
+        id: 1,
+        author: '用户1',
+        avatar: '/images/avatar.jpg',
+        date: '2024-07-15',
+        content: '推荐内容的帖子。这个帖子包含了很多有趣的信息，大家可以在这里讨论社区活动的细节和安排。',
+        topic: '社区活动',
+        replies: 10,
+        likes: 5,
+        isFollowing: false
+      },
+      {
+        id: 2,
+        author: '用户2',
+        avatar: '/images/avatar.jpg',
+        date: '2024-07-14',
+        content: '关注内容的帖子。近期社区内发生了一些安全事件，希望大家能够提高警惕，注意自身安全。',
+        topic: '安全警报',
+        replies: 8,
+        likes: 3,
+        isFollowing: true
+      },
+      {
+        id: 3,
+        author: '用户3',
+        avatar: '/images/avatar.jpg',
+        date: '2024-07-13',
+        content: '动态内容的帖子。分享一下我今天在社区公园遇到的一些趣事，天气真好，心情也很好。',
+        topic: '日常分享',
+        replies: 5,
+        likes: 2,
+        isFollowing: false
+      },
+      {
+        id: 4,
+        author: '用户4',
+        avatar: '/images/avatar.jpg',
+        date: '2024-07-12',
+        content: '问答内容的帖子。我想请问一下大家，有没有推荐的家政服务公司，最近需要找人帮忙打扫卫生。',
+        topic: '社区问题',
+        replies: 12,
+        likes: 7,
+        isFollowing: false
+      },
+      {
+        id: 5,
+        author: '用户5',
+        avatar: '/images/avatar.jpg',
+        date: '2024-07-11',
+        content: '话题内容的帖子。最近社区内的某些话题引起了热议，大家怎么看待这些问题，欢迎发表意见。',
+        topic: '热门话题',
+        replies: 15,
+        likes: 9,
+        isFollowing: true
+      },
+      {
+        id: 6,
+        author: '用户6',
+        avatar: '/images/avatar.jpg',
+        date: '2024-07-10',
+        content: '附近内容的帖子。社区附近新开了一家咖啡馆，环境很好，推荐大家去试试。',
+        topic: '附近活动',
+        replies: 20,
+        likes: 11,
+        isFollowing: false
+      }
     ];
 
 

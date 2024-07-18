@@ -4,14 +4,39 @@
   background-color: #f9f9f9;
 }
 
-.profile-content {
-  width: 100%;
+.profile-header {
+  position: relative;
+  padding: 10px;
+  background-color: #f8f8f8;
+  margin-bottom: 10px;
 }
 
-.profile-header {
-  display: flex;
-  margin-left: auto;
-  margin-right: 0;
+.notification-item {
+  position: absolute;
+  left: 160px; /* Adjust left position for notification icon */
+  top: 0%; /* Align vertically */
+  transform: translateY(-50%); /* Center vertically */
+}
+
+.notification-icon {
+  width: 24px;
+  height: 24px;
+}
+
+.settings-item {
+  position: absolute;
+  right: 160px; /* Adjust right position for settings icon */
+  top: 0%; /* Align vertically */
+  transform: translateY(-50%); /* Center vertically */
+}
+
+.settings-icon {
+  width: 24px;
+  height: 24px;
+}
+
+.profile-content {
+  width: 100%;
 }
 
 .user-info {
@@ -71,7 +96,7 @@
 .feature-item {
   width: 20%; /* Adjust width as needed */
   padding: 15px;
-  background-color: #f0f0f0;
+  /* background-color: #f0f0f0; */
   border-radius: 5px;
   display: flex;
   align-items: center;
@@ -83,38 +108,4 @@
   width: 40px; /* Adjust size */
   height: 40px; /* Adjust size */
   margin-bottom: 5px;
-}
-
-.settings {
-  display: flex;
-  flex-direction: column;
-}
-
-.setting-item {
-  background-color: #007aff;
-  color: white;
-  padding: 10px;
-  border: none;
-  border-radius: 5px;
-  margin-bottom: 10px;
-  text-align: center;
-}
-
-.notification-item {
-  display: inline-block;
-  margin-right: 20px;
-}
-
-.notification-icon {
-  width: 20px;
-  height: 20px;
-}
-
-.setting-item {
-  display: inline-block;
-}
-
-.settings-icon {
-  width: 20px;
-  height: 20px;
 }

@@ -2,7 +2,7 @@
 <view class="container">
   <view class="profile-header">
     <navigator url="/pages/notification/notification" class="notification-item">
-      <image src="/images/icons/notification.png" class="notification-icon" />
+      <image src="/images/icons/chat.png" class="notification-icon" />
     </navigator>
     <navigator url="/pages/settings/settings" class="settings-item">
       <image src="/images/icons/settings.png" class="settings-icon" />
@@ -14,7 +14,7 @@
     <view class="user-info">
       <image class="avatar" src="/images/default-avatar.png" />
       <view class="info">
-        <text class="username">Username</text>
+        <text class="username">用户名</text>
         <text class="email">user@example.com</text>
       </view>
     </view>
@@ -23,31 +23,31 @@
     <view class="user-stats">
       <view class="stat-item">
         <text class="stat-number">{{followers}}</text>
-        <text class="stat-label">Followers</text>
+        <text class="stat-label">关注者</text>
       </view>
       <view class="stat-item">
         <text class="stat-number">{{fans}}</text>
-        <text class="stat-label">Fans</text>
+        <text class="stat-label">粉丝</text>
       </view>
       <view class="stat-item">
         <text class="stat-number">{{favorites}}</text>
-        <text class="stat-label">Favorites</text>
+        <text class="stat-label">收藏</text>
       </view>
     </view>
     
     <!-- Features -->
     <view class="features">
       <navigator url="/pages/reminder/reminder" class="feature-item">
-        <image src="/images/reminder-icon.png" class="feature-icon" />
-        <text>Reminder</text>
+        <image src="/images/icons/reminder-icon.png" class="feature-icon" />
+        <text class="feature-name">提醒</text>
       </navigator>
       <navigator url="/pages/note/note" class="feature-item">
-        <image src="/images/note-icon.png" class="feature-icon" />
-        <text>Note</text>
+        <image src="/images/icons/note-icon.png" class="feature-icon" />
+        <text class="feature-name">笔记</text>
       </navigator>
       <navigator url="/pages/bookkeeping/bookkeeping" class="feature-item">
-        <image src="/images/bookkeeping-icon.png" class="feature-icon" />
-        <text>Bookkeeping</text>
+        <image src="/images/icons/bookkeeping-icon.png" class="feature-icon" />
+        <text class="feature-name">记账</text>
       </navigator>
     </view>
 
